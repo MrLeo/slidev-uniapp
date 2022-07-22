@@ -7,9 +7,9 @@
   },
   "scripts": {
     "build": "slidev build --base /slidev-uniapp/ --out ./docs --download true",
-    "build:vps": "slidev build --base /slidev-uniapp/ --out ./slidev-uniapp --download true",
+    "build:vps": "slidev build --base /slidev-uniapp/ --out ./slidev-uniapp --download true && slidev export --output ./slidev-uniapp/slides-export.pdf",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export --output ./slidev-uniapp/slides-export.pdf"
   },
   "dependencies": {
     "@slidev/cli": "^0.34.3",
