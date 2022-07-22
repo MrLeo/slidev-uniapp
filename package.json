@@ -6,7 +6,7 @@
     "url": "https://github.com/MrLeo/slidev-uniapp.git"
   },
   "scripts": {
-    "build": "slidev build --base=/slidev-uniapp/ --out=./docs",
+    "build": "slidev build --base=/slidev-uniapp/ --out=./docs --routeMode=hash --download=true",
     "dev": "slidev --open",
     "export": "slidev export"
   },
