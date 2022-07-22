@@ -1,5 +1,7 @@
 # Welcome to [Slidev](https://github.com/slidevjs/slidev)!
 
+[![pages-build-deployment](https://github.com/MrLeo/slidev-uniapp/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/MrLeo/slidev-uniapp/actions/workflows/pages/pages-build-deployment)
+
 To start the slide show:
 
 - `npm install`

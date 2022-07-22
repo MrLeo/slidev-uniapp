@@ -485,7 +485,7 @@ layout: section
 ---
 layout: section
 ---
-# 开发建议
+# 建议
 ---
 
 # UI 组件库

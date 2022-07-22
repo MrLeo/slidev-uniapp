@@ -7,6 +7,7 @@
   },
   "scripts": {
     "build": "slidev build --base /slidev-uniapp/ --out ./docs --download true",
+    "build:vps": "slidev build --base /slidev-uniapp/ --out ./slidev-uniapp --download true",
     "dev": "slidev --open",
     "export": "slidev export"
   },
