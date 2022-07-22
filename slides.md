@@ -6,7 +6,7 @@ highlighter: shiki
 lineNumbers: false
 monaco: true # 默认为 "dev"
 download: true
-# routerMode: hash
+routerMode: hash
 info: |
   ## 更多关于UniApp的内容
   请访问：[https://xuebin.me](https://lxb.notion.site/uni-app-fe5673cefc2a46dca7c0fb43e2c68f91)
