@@ -1,0 +1,14 @@
+{
+  "name": "slidev-uniapp",
+  "private": true,
+  "scripts": {
+    "build": "slidev build --base=/uni-app/ --out=./uni-app",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.34.3",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  }
+}
