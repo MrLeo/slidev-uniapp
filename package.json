@@ -2,7 +2,7 @@
   "name": "slidev-uniapp",
   "private": true,
   "scripts": {
-    "build": "slidev build --base=/uni-app/ --out=./uni-app",
+    "build": "slidev build --base=/slidev-uniapp/ --out=./docs",
     "dev": "slidev --open",
     "export": "slidev export"
   },
