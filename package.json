@@ -1,6 +1,10 @@
 {
   "name": "slidev-uniapp",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrLeo/slidev-uniapp.git"
+  },
   "scripts": {
     "build": "slidev build --base=/slidev-uniapp/ --out=./docs",
     "dev": "slidev --open",
