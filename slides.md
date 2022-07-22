@@ -5,6 +5,7 @@ class: text-center
 highlighter: shiki
 lineNumbers: false
 monaco: true # 默认为 "dev"
+download: true
 info: |
   ## 更多关于UniApp的内容
   请访问：[https://xuebin.me](https://lxb.notion.site/uni-app-fe5673cefc2a46dca7c0fb43e2c68f91)
@@ -682,6 +683,7 @@ layout: section
 
 ---
 layout: section
+download: true
 ---
 
 <!-- 创新产品组 - 柳学斌 -->
