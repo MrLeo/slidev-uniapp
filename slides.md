@@ -49,6 +49,9 @@ layout: section
 
 # 跨端开发框架
 
+> [跨端开发框架深度横评之2020版](https://juejin.cn/post/6844904118901817351)
+
+
 - [uni-app](https://github.com/dcloudio/uni-app) 👍
   
   > Vue
@@ -57,8 +60,6 @@ layout: section
   
   > React
 
-
-[跨端开发框架深度横评之2020版](https://juejin.cn/post/6844904118901817351)
 
 ---
 
@@ -82,39 +83,9 @@ layout: section
 # 开始
 ---
 
-# 创建工程
+# HBuilderX 创建工程
 
-<div grid="~ cols-2 gap-4" m="t-2">
-<div>
-
-# HBuilderX
-
-![](/assets/hbuilderx_create_app.png)
-
-</div>
-<div>
-
-# Cli
-
--  Vue2
-
-```ts {1}
-npm install -g @vue/cli@4
-vue create -p dcloudio/uni-preset-vue my-project
-```
-
-- Vue3
-
-```ts {5}
-// javascript
-npx degit dcloudio/uni-preset-vue#vite my-vue3-project
-
-// typescript
-npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
-```
-
-</div>
-</div>
+<img src="/assets/hbuilderx_create_app.png" h="100%"/>
 
 ---
 
@@ -123,7 +94,7 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 > https://uniapp.dcloud.io/tutorial/project.html#%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84
 
 
-```ts {16-20|7-11|2,3-4}
+```ts {all|16-20|7-11|2,3,4}
 ┌─uniCloud              云空间目录，阿里云为uniCloud-aliyun,腾讯云为uniCloud-tcb（详见uniCloud）
 ├─uni_modules           存放[uni_module](/uni_modules)。
 │─components            符合vue组件规范的uni-app组件目录
@@ -206,6 +177,43 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 layout: section
 ---
 # 折腾
+---
+
+# cli 创建工程
+
+-  Vue2
+
+```ts {1}
+npm install -g @vue/cli@4
+vue create -p dcloudio/uni-preset-vue my-project
+```
+
+- Vue3
+
+```ts {5}
+// javascript
+npx degit dcloudio/uni-preset-vue#vite my-vue3-project
+
+// typescript
+npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
+```
+
+---
+
+# cli工程配置
+
+[我的前端工程配置](https://lxb.notion.site/993f8e36ad6e410f88f74f01e52e306c)
+
+- .editorconfig
+- .prettierrc.js
+- .eslintrc.js
+- commitlint.config.js
+- .husky
+- lint-staged
+- changelog
+
+# 
+
 ---
 
 # 我的工程目录
@@ -299,7 +307,7 @@ layout: section
 > https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/-/tree/master/script
 
 <!-- {monaco} {height:'calc(100% - 30px)'} -->
-```ts {all|3,6|9,12,15}
+```ts {all|3|6,9|12,15}
 export const cli = {
   /** [HBuilderX cli命令行工具](https://hx.dcloud.net.cn/cli/README) */
   hb: `/Applications/HBuilderX.app/Contents/MacOS/cli`,
@@ -318,9 +326,10 @@ export const cli = {
 }
 ```
 
+
 ---
 
-# 自定义运行命令 - 编写运行IDE命令
+# 自定义运行 - 编写运行IDE命令
 
 > https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/-/tree/master/script
 
@@ -338,9 +347,10 @@ export const open = {
 }
 ```
 
+
 ---
 
-# 自定义运行命令 - 编写获取预览二维码命令
+# 自定义运行 - 编写获取预览二维码命令
 > https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/-/tree/master/script
 
 ```ts
@@ -365,9 +375,10 @@ export const preview = {
 }
 ```
 
+
 ---
 
-# 自定义运行命令
+# 自定义运行 - 启动全部端
 
 > https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/-/tree/master/script
 
@@ -394,6 +405,7 @@ Object.keys(open).forEach(async (mp) => {
   }
 })
 ```
+
 
 ---
 layout: section
