@@ -2,6 +2,7 @@
 theme: seriph
 background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
+# canvasWidth: 980 # 默认为 980x552px
 highlighter: shiki
 lineNumbers: false
 monaco: true # 默认为 "dev"
