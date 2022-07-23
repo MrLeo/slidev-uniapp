@@ -148,37 +148,6 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 
 ---
 
-# 我的工程目录
-
-<div grid="~ cols-3 gap-4">
-<div>
-
-![](/assets/mp-inno-uni-zhuan-1.png)
-
-</div>
-<div>
-
-![](/assets/mp-inno-uni-zhuan-2.png)
-
-</div>
-<div>
-
-<v-click>
-
-> git submodule 引入 HBuilderX 工程
-
-
-![](/assets/mp-inno-uni-zhuan-3.png)
-
-<arrow x1="650" y1="400" x2="305" y2="325" color="#f00" width="5" arrowSize="1" />
-
-</v-click>
-
-</div>
-</div>
-
----
-
 # HBuilderX 运行前准备 - 配置开发工具路径
 
 ![](/assets/hbuilderx_config.png)
@@ -199,7 +168,7 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 
 <arrow x1="565" y1="135" x2="530" y2="380" color="#f00" width="5" arrowSize="1" />
 
---- 
+---
 
 # 火山小程序模拟器
 
@@ -237,6 +206,33 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 layout: section
 ---
 # 折腾
+---
+
+# 我的工程目录
+
+<div grid="~ cols-3 gap-4">
+<div>
+
+![](/assets/mp-inno-uni-zhuan-1.png)
+
+</div>
+<div>
+
+![](/assets/mp-inno-uni-zhuan-2.png)
+
+</div>
+<div>
+
+> git submodule 引入 HBuilderX 工程
+
+
+![](/assets/mp-inno-uni-zhuan-3.png)
+
+<arrow x1="650" y1="400" x2="305" y2="325" color="#f00" width="5" arrowSize="1" />
+
+</div>
+</div>
+
 ---
 
 # cli scripts
