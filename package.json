@@ -6,8 +6,8 @@
     "url": "https://github.com/MrLeo/slidev-uniapp.git"
   },
   "scripts": {
-    "build": "slidev build --base /slidev-uniapp/ --out ./docs --download true && slidev export --output ./docs/slides-export.pdf",
-    "build:vps": "slidev build --base /slidev-uniapp/ --out ./slidev-uniapp --download true && slidev export --output ./slidev-uniapp/slides-export.pdf",
+    "build": "slidev build --base /slidev-uniapp/ --out ./docs --download true && slidev export --output ./docs/slidev-exported.pdf",
+    "build:vps": "slidev build --base /slidev-uniapp/ --out ./slidev-uniapp --download true && slidev export --output ./slidev-uniapp/slidev-exported.pdf",
     "dev": "slidev --open",
     "export": "slidev export"
   },

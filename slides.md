@@ -6,6 +6,7 @@ highlighter: shiki
 lineNumbers: false
 monaco: true # 默认为 "dev"
 download: true
+exportFilename: 'slidev-exported'
 routerMode: hash
 info: |
   ## 更多关于UniApp的内容
