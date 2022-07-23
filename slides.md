@@ -245,7 +245,7 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 
 # cli scripts
 
-> https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/-/blob/master/package.json
+> https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/-/tree/master/package.json
 
 ```jsonc {all|4-5}
 {
