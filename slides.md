@@ -183,7 +183,7 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 
 ![](/assets/hbuilderx_config.png)
 
-<arrow v-click="1" x1="105" y1="215" x2="180" y2="400" color="#f00" width="5" arrowSize="1" />
+<arrow x1="105" y1="215" x2="180" y2="400" color="#f00" width="5" arrowSize="1" />
 
 ---
 
@@ -197,7 +197,7 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 
 <img src="/assets/weixin_devtools.png" h="100%">
 
-<arrow v-click="1" x1="565" y1="135" x2="530" y2="380" color="#f00" width="5" arrowSize="1" />
+<arrow x1="565" y1="135" x2="530" y2="380" color="#f00" width="5" arrowSize="1" />
 
 --- 
 
@@ -213,7 +213,7 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 
 <img src="/assets/mars_login.png" h="100%" />
 
-<arrow v-click="1" x1="900" y1="50" x2="690" y2="200" color="#f00" width="5" arrowSize="1" />
+<arrow x1="900" y1="50" x2="690" y2="200" color="#f00" width="5" arrowSize="1" />
 
 ---
 
