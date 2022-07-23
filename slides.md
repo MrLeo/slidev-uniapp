@@ -20,7 +20,7 @@ info: |
   - [icon](https://icones.js.org)
 
 drawings:
-  persist: false
+  persist: false # 对绘图进行持久化
 css: unocss
 title: uni-app和火山小程序前端实践
 ---
@@ -43,8 +43,9 @@ layout: section
 
 | uni-app 是一个使用 Vue.js 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、Web（响应式）、以及各种小程序（微信/支付宝/百度/头条/QQ/快手/钉钉/淘宝）、快应用等多个平台。
 
-<!-- ![功能框架图](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-f184e7c3-1912-41b2-b81f-435d1b37c7b4/29448a55-2785-4296-9248-913dbda9de7f.png) -->
 <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-f184e7c3-1912-41b2-b81f-435d1b37c7b4/29448a55-2785-4296-9248-913dbda9de7f.png" class="h-90 m-auto rounded shadow" />
+
+<!-- 官方对于uni-app的介绍，app、web、小程序 都支持 -->
 
 ---
 
@@ -61,6 +62,11 @@ layout: section
   
   > React
 
+<!-- 
+目前跨端小程序开发框架比较火的就是 uni-app 和 taro
+
+分别是 Vue 和 React 的代表
+-->
 
 ---
 
