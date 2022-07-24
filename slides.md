@@ -10,10 +10,10 @@ download: true
 exportFilename: 'slidev-exported'
 routerMode: hash
 info: |
-  ## 更多关于UniApp的内容
+  # 更多关于UniApp的内容
   请访问：[https://xuebin.me](https://lxb.notion.site/uni-app-fe5673cefc2a46dca7c0fb43e2c68f91)
 
-  # 相关链接
+  ### 相关链接
   - [UniApp](https://uniapp.dcloud.io)
   - [slidev](https://cn.sli.dev)
   - [UnoCSS](https://uno.antfu.me)
