@@ -804,6 +804,12 @@ download: true
 
 <!-- # 创新产品组 - 柳学斌 -->
 
+<div flex gap="32" mx="auto" align="center" justify="center">
+  <img src="/assets/qrcode_alipay.png" w="150px" />
+  <img src="/assets/qrcode_weixin.jpg" w="150px" />
+</div>
+
+
 <div class="pt-12">
   <a href="https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
     GitLab: mp-innovation-uni <carbon:arrow-right class="inline"/>
@@ -811,11 +817,14 @@ download: true
 </div>
 
 
-<div class="pt-12">
+<div class="pt-6">
   <a href="https://lxb.notion.site/uni-app-fe5673cefc2a46dca7c0fb43e2c68f91" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
     lxb.notion.site <carbon:arrow-right class="inline"/>
   </a>
 </div>
 
 
-<img src="/assets/qrcode.png" w="100px" mt="20" mx="auto"/>
+<div mt="12" mx="auto" align="center">
+  <img src="/assets/qrcode.png" w="150px" />
+  扫码观看PPT
+</div>
