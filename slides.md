@@ -164,6 +164,94 @@ layout: section
 
 ---
 
+---
+
+# 火山APP宿主环境
+
+```ts
+export function callHostMethod(method = '', extra = {}) {
+  // #ifndef MP-TOUTIAO
+  throw new Error('请使用智联APP真机调试火山小程序')
+  // #endif
+
+  if(tt.callHostMethodSync){
+    return tt.callHostMethodSync({ method, extra })
+  }
+
+  return new Promise((resolve, reject) => {
+    tt.callHostMethod({
+      method,
+      extra,
+      success: resolve,
+      fail: reject,
+    })
+  })
+}
+```
+
+---
+
+# 火山APP宿主环境 - [注入登录信息](https://alidocs.dingtalk.com/i/team/vr4zEWJ2B4poPmDY/docs/vr4zER9dnjeolXDY)
+
+<div grid="~ cols-3 gap-4">
+<div style="grid-column: 1 / span 2">
+
+```ts {all|2|4-13}
+export default {
+  onShow() {
+
+    // #ifdef MP-TOUTIAO
+    callHostMethod('loginInfo')
+      .then(({ data } = {}) => {
+        // at、rt、userRole（0:求职者，1:企业）
+        const { at, rt, userRole } = data || {}
+        console.log(`[callHostMethod] -> 设置登录信息`, { at, rt, userRole })
+        at && this.$utils.setToken({ at, rt })
+      })
+      .catch((e) => console.error(`[callHostMethod] -> 设置登录信息`, e))
+    // #endif
+
+  },
+}
+```
+
+</div><div>
+
+
+
+</div>
+</div>
+
+---
+
+# 火山APP宿主环境 - [跳转native路由](https://alidocs.dingtalk.com/i/team/vr4zEWJ2B4poPmDY/docs/vr4zERLPdg1MZXDY)
+
+<div grid="~ cols-3 gap-4">
+<div style="grid-column: 1 / span 2">
+
+```ts {all|1-6|8-13}
+callHostMethod('navigate', { 
+  url: `/position/native/company`, 
+  params: { 
+    companyNumber: info.companyNumber 
+  } 
+})
+
+callHostMethod('navigate', {
+  url: `/base/webview/common?urlStr=${url}`,
+  params: {
+    animated: true, // 是否动画转场，不传默认为true
+  },
+})
+```
+
+</div><div>
+
+</div>
+</div>
+
+---
+
 # 各小程序 request 网络请求的 Referer
 
 - [微信开放文档 (qq.com)](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html#%E4%BD%BF%E7%94%A8%E9%99%90%E5%88%B6)
@@ -174,7 +262,7 @@ layout: section
     
     > https://{appid}.hybrid.alipay-eco.com/{appid}/{version}/index.html#pages/index
 
-- [字节小程序 (bytedance.com)](https://microapp.bytedance.com/docs/zh-CN/mini-app/develop/api/network/http/tt-request/#header-%E8%AF%B4%E6%98%8E)
+- [火山小程序 (bytedance.com)](https://microapp.bytedance.com/docs/zh-CN/mini-app/develop/api/network/http/tt-request/#header-%E8%AF%B4%E6%98%8E)
     
     > https://tmaservice.developer.toutiao.com/?appid=madab9772ccfc01a73&version=1.0.0
 
@@ -184,6 +272,7 @@ layout: section
 layout: section
 ---
 # 折腾
+<!-- HBuilder虽然方便但是很多配置没有公开，做为一个有追求的前端，当然希望尽可能的都在我们自己的掌控中 -->
 ---
 
 # cli 创建工程
