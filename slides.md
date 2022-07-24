@@ -37,6 +37,7 @@ title: uni-app和火山小程序前端实践
 layout: section
 ---
 # 背景
+<!-- 可能有些同学还没听说uni-app，这里先介绍下 -->
 ---
 
 # Uni-APP
@@ -88,6 +89,7 @@ layout: section
 layout: section
 ---
 # 开始
+<!-- 先从最简方式启动开发环境 -->
 ---
 
 # HBuilderX 创建工程
@@ -164,19 +166,15 @@ layout: section
 
 ---
 
----
+# 火山APP宿主环境 - 封装await
 
-# 火山APP宿主环境
-
-```ts
+```ts {all|9-14|2-4}
 export function callHostMethod(method = '', extra = {}) {
   // #ifndef MP-TOUTIAO
   throw new Error('请使用智联APP真机调试火山小程序')
   // #endif
 
-  if(tt.callHostMethodSync){
-    return tt.callHostMethodSync({ method, extra })
-  }
+  if(tt.callHostMethodSync) return tt.callHostMethodSync({ method, extra })
 
   return new Promise((resolve, reject) => {
     tt.callHostMethod({
@@ -217,7 +215,7 @@ export default {
 
 </div><div>
 
-
+// TODO 效果视频
 
 </div>
 </div>
@@ -246,6 +244,8 @@ callHostMethod('navigate', {
 ```
 
 </div><div>
+
+// TODO 效果视频
 
 </div>
 </div>
@@ -506,7 +506,16 @@ Object.keys(open).forEach(async (mp) => {
 ---
 layout: section
 ---
-# 优化
+# VSCode
+<!-- 
+如果开发APP那没得选HBuilderX肯定是最好的选择
+
+但是开发小程序可能我们还是习惯VSCode或WebStorm
+
+默认情况下vscode是没有uni-app的语法提示的
+
+但是好在VSCode强大的插件市场已经有支持了
+-->
 ---
 
 # VSCode 开发体验优化
@@ -591,6 +600,7 @@ layout: section
 layout: section
 ---
 # 建议
+<!-- 下面是我们团队在开发过程中的一些经验及建议 -->
 ---
 
 # UI 组件库
