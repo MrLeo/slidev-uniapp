@@ -627,8 +627,10 @@ UI 推荐
 
 # 流畅滚动
 
-- Page
+- scroll-view
 - [mescroll](https://www.mescroll.com/)
+- Page
+
 
 ---
 
@@ -654,24 +656,34 @@ H5 / UniApp
 
 # 静态资源
 
+- local
+- remote
+
 <div grid="~ cols-2 gap-4">
 <div>
 
-local
+  
 
 </div><div>
 
-remote
+  
 
 </div>
 </div>
+
 
 ---
 
 # 数据使用
 
-- 双向data数据 / freeze冻结数据 / globalData / Storage
+- data双向数据 / Object.freeze()冻结数据 / 外部定义变量
+    
+- globalData / 挂载在vue实例
+    
+- Storage / URL参数
+
 - 分批加载
+
 
 ---
 layout: section
