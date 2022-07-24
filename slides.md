@@ -792,7 +792,14 @@ layout: section
 download: true
 ---
 
-<!-- 创新产品组 - 柳学斌 -->
+<!-- # 创新产品组 - 柳学斌 -->
+
+<div class="pt-12">
+  <a href="https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
+    GitLab: mp-innovation-uni <carbon:arrow-right class="inline"/>
+  </a>
+</div>
+
 
 <div class="pt-12">
   <a href="https://lxb.notion.site/uni-app-fe5673cefc2a46dca7c0fb43e2c68f91" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -801,8 +808,4 @@ download: true
 </div>
 
 
-<div class="pt-12">
-  <a href="https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    GitLab: mp-innovation-uni <carbon:arrow-right class="inline"/>
-  </a>
-</div>
+<img src="/assets/qrcode.png" w="100px" mt="20" mx="auto"/>
