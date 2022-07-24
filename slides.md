@@ -168,9 +168,6 @@ layout: section
 
 # 火山APP宿主环境 - 封装await
 
-<div grid="~ cols-3 gap-4">
-<div style="grid-column: 1 / span 2">
-
 ```ts {all|11-16|2-4}
 export function callHostMethod(method = '', extra = {}) {
   // #ifndef MP-TOUTIAO
@@ -191,13 +188,6 @@ export function callHostMethod(method = '', extra = {}) {
   })
 }
 ```
-
-</div><div>
-
-// TODO 效果视频
-
-</div>
-</div>
 
 ---
 
