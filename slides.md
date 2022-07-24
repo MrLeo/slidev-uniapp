@@ -168,13 +168,18 @@ layout: section
 
 # 火山APP宿主环境 - 封装await
 
-```ts {all|9-14|2-4}
+<div grid="~ cols-3 gap-4">
+<div style="grid-column: 1 / span 2">
+
+```ts {all|11-16|2-4}
 export function callHostMethod(method = '', extra = {}) {
   // #ifndef MP-TOUTIAO
   throw new Error('请使用智联APP真机调试火山小程序')
   // #endif
 
-  if(tt.callHostMethodSync) return tt.callHostMethodSync({ method, extra })
+  if(tt.callHostMethodSync) {
+    return tt.callHostMethodSync({ method, extra })
+  }
 
   return new Promise((resolve, reject) => {
     tt.callHostMethod({
@@ -187,6 +192,13 @@ export function callHostMethod(method = '', extra = {}) {
 }
 ```
 
+</div><div>
+
+// TODO 效果视频
+
+</div>
+</div>
+
 ---
 
 # 火山APP宿主环境 - [注入登录信息](https://alidocs.dingtalk.com/i/team/vr4zEWJ2B4poPmDY/docs/vr4zER9dnjeolXDY)
@@ -194,16 +206,15 @@ export function callHostMethod(method = '', extra = {}) {
 <div grid="~ cols-3 gap-4">
 <div style="grid-column: 1 / span 2">
 
-```ts {all|2|4-13}
+```ts {all|5-12|1,3}
+// App.vue
 export default {
   onShow() {
 
     // #ifdef MP-TOUTIAO
     callHostMethod('loginInfo')
       .then(({ data } = {}) => {
-        // at、rt、userRole（0:求职者，1:企业）
-        const { at, rt, userRole } = data || {}
-        console.log(`[callHostMethod] -> 设置登录信息`, { at, rt, userRole })
+        const { at, rt } = data || {}
         at && this.$utils.setToken({ at, rt })
       })
       .catch((e) => console.error(`[callHostMethod] -> 设置登录信息`, e))
