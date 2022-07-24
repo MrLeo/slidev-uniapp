@@ -164,6 +164,8 @@ layout: section
 
 <arrow x1="900" y1="50" x2="690" y2="200" color="#f00" width="5" arrowSize="1" />
 
+<!-- 特别是火山小程序，配置的请求域名在开发环境下不生效 -->
+
 ---
 
 # 火山APP宿主环境 - 封装await
