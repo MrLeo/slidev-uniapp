@@ -138,7 +138,7 @@ layout: section
 
 # 启动项目
 
-![](/assets/hbuilderx_run.png)
+<img src="/assets/hbuilderx_run.png" h="100%"/>
 
 ---
 
@@ -218,7 +218,7 @@ export default {
 
 </div><div>
 
-<video controls autoplay autobuffer loop muted h="300px">
+<video autoplay autobuffer loop muted h="300px">
   <source src="/assets/video/1.mp4" type="video/mp4">
 </video>
 
@@ -250,7 +250,7 @@ callHostMethod('navigate', {
 
 </div><div>
 
-<video controls autoplay autobuffer loop muted h="300px">
+<video autoplay autobuffer loop muted h="300px">
   <source src="/assets/video/2.mp4" type="video/mp4">
 </video>
 
