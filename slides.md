@@ -608,6 +608,8 @@ layout: section
 ---
 # 建议
 下面是我们团队在开发过程中的一些经验及建议
+
+[打造高性能小程序](https://lxb.notion.site/e17f21ae371f40fd84b1ea05622e7820)
 ---
 
 # UI 组件库
@@ -681,9 +683,9 @@ H5 / UniApp
 # 数据使用
 
 - data双向数据 / Object.freeze()冻结数据 / 外部定义变量
-    
+
 - globalData / 挂载在vue实例
-    
+
 - Storage / URL参数
 
 - 分批加载
@@ -783,6 +785,8 @@ layout: section
 
 # 提前规划分包
 
+[subPackages](https://uniapp.dcloud.net.cn/collocation/pages.html#subpackages)
+
 <div display="flex" justify="center">
 <div my="auto" text="left">
 
@@ -818,6 +822,13 @@ layout: section
 
 ---
 layout: section
+---
+# 官方建议
+
+[高效开发技巧](https://uniapp.dcloud.io/tutorial/snippet.html) / [性能优化专题](https://uniapp.dcloud.io/tutorial/performance.html)
+
+---
+layout: section
 download: true
 ---
 
@@ -839,7 +850,7 @@ download: true
 
 <div class="pt-6">
   <a href="https://lxb.notion.site/uni-app-fe5673cefc2a46dca7c0fb43e2c68f91" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    lxb.notion.site <carbon:arrow-right class="inline"/>
+    我的小程序开发笔记 <carbon:arrow-right class="inline"/>
   </a>
 </div>
 
