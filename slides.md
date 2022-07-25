@@ -131,9 +131,9 @@ layout: section
 
 # HBuilderX 运行前准备 - 配置开发工具路径
 
-<img src="/assets/hbuilderx_config.png" w="850px"/>
+<img src="/assets/hbuilderx_config.png" h="450px"/>
 
-<arrow x1="105" y1="215" x2="180" y2="400" color="#f00" width="5" arrowSize="1" />
+<arrow x1="100" y1="200" x2="180" y2="450" color="#f00" width="5" arrowSize="1" />
 
 ---
 
