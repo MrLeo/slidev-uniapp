@@ -409,7 +409,7 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 > https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/-/tree/master/script
 
 <!-- {monaco} {height:'calc(100% - 30px)'} -->
-```ts {all|3|6,9|12,15|9,12,15}
+```ts {all|3|6,9,12,15|6,9}
 export const cli = {
   /** [HBuilderX cli命令行工具](https://hx.dcloud.net.cn/cli/README) */
   hb: `/Applications/HBuilderX.app/Contents/MacOS/cli`,
