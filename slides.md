@@ -278,7 +278,7 @@ callHostMethod('navigate', {
 layout: section
 ---
 # 折腾
-HBuilder虽然方便但是很多配置没有公开，做为一个有追求的前端，当然希望尽可能的都在我们自己的掌控中
+HBuilder虽然方便但是很多配置没有公开，做为一个有追求的前端，当然希望尽可能的都在自己的掌控中
 ---
 
 # cli 创建工程
