@@ -5,14 +5,6 @@
   </a>
 </div>
 
-
-<div flex gap="32" mx="auto" align="center" justify="center">
-  <img src="./public/assets/qrcode_alipay.png" w="150px" />
-  <img src="./public/assets/qrcode_weixin.jpg" w="150px" />
-  <img src="./public/assets/qrcode_mars.png" w="150px" />
-</div>
-
-
 <div mt="12" mx="auto" align="center">
   <img src="./public/assets/qrcode.png" w="150px" />
   扫码观看PPT
