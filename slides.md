@@ -19,6 +19,8 @@ info: |
   - [UnoCSS](https://uno.antfu.me)
   - [icon](https://icones.js.org)
 
+  > 国内用户可访问: http://mr.leo.gitee.io/slidev-uniapp/
+
 drawings:
   persist: false # 对绘图进行持久化
 css: unocss
@@ -93,7 +95,7 @@ layout: section
 
 # HBuilderX 创建工程
 
-<img src="/assets/hbuilderx_create_app.png" h="100%"/>
+<img src="/assets/hbuilderx_create_app.png" h="400px"/>
 
 ---
 
@@ -137,13 +139,13 @@ layout: section
 
 # 启动项目
 
-<img src="/assets/hbuilderx_run.png" h="100%"/>
+<img src="/assets/hbuilderx_run.png" h="400px"/>
 
 ---
 
 # 小程序模拟器配置
 
-<img src="/assets/weixin_devtools.png" h="100%">
+<img src="/assets/weixin_devtools.png" h="470px">
 
 <arrow x1="565" y1="135" x2="530" y2="380" color="#f00" width="5" arrowSize="1" />
 
@@ -159,7 +161,7 @@ layout: section
   </a>
 </div>
 
-<img src="/assets/mars_login.png" h="100%" />
+<img src="/assets/mars_login.png" h="450px" />
 
 <arrow x1="900" y1="50" x2="690" y2="200" color="#f00" width="5" arrowSize="1" />
 
