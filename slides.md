@@ -556,7 +556,7 @@ layout: section
 
 # VScode 插件推荐
 
-> .vscode/extensions.json
+添加 .vscode/extensions.json 团队成员间共享配置
 
 ```json
 {
@@ -579,6 +579,8 @@ layout: section
 ---
 
 # 更全面的 uni-app 语法提示
+
+uni-app 项目下的 manifest.json、pages.json 等文件可以包含注释。vscode 里需要改用 jsonc 编辑器打开。
 
 - 补充d.ts
 
