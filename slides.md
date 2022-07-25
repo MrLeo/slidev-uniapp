@@ -642,6 +642,19 @@ UI 推荐
 
 ---
 
+# 数据使用
+
+- data双向数据 / Object.freeze()冻结数据 / 外部定义变量
+
+- globalData / 挂载在vue实例
+
+- Storage / URL参数
+
+- 分批加载
+
+
+---
+
 # 组件划分
 
 <div grid="~ cols-2 gap-4">
@@ -664,8 +677,9 @@ H5 / UniApp
 
 # 静态资源
 
-- local
-- remote
+- local / remote
+
+- 大图  /  压缩雪碧图 / svg / 代码实现
 
 <div grid="~ cols-2 gap-4">
 <div>
@@ -678,19 +692,6 @@ H5 / UniApp
 
 </div>
 </div>
-
-
----
-
-# 数据使用
-
-- data双向数据 / Object.freeze()冻结数据 / 外部定义变量
-
-- globalData / 挂载在vue实例
-
-- Storage / URL参数
-
-- 分批加载
 
 
 ---
