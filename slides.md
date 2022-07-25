@@ -145,9 +145,9 @@ layout: section
 
 # 小程序模拟器配置
 
-<img src="/assets/weixin_devtools.png" h="470px">
+<img src="/assets/weixin_devtools.png" h="450px">
 
-<arrow x1="565" y1="135" x2="530" y2="380" color="#f00" width="5" arrowSize="1" />
+<arrow x1="545" y1="135" x2="530" y2="365" color="#f00" width="5" arrowSize="1" />
 
 ---
 
@@ -161,9 +161,9 @@ layout: section
   </a>
 </div>
 
-<img src="/assets/mars_login.png" h="450px" />
+<img src="/assets/mars_login.png" h="350px" />
 
-<arrow x1="900" y1="50" x2="690" y2="200" color="#f00" width="5" arrowSize="1" />
+<arrow x1="800" y1="300" x2="540" y2="210" color="#f00" width="5" arrowSize="1" />
 
 <!-- 特别是火山小程序，配置的请求域名在开发环境下不生效 -->
 
@@ -338,7 +338,7 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 > git submodule 引入 HBuilderX 工程
 
 
-![](/assets/mp-inno-uni-zhuan-3.png)
+<img src="/assets/mp-inno-uni-zhuan-3.png" h="420px"/>
 
 <arrow x1="650" y1="400" x2="305" y2="325" color="#f00" width="5" arrowSize="1" />
 
