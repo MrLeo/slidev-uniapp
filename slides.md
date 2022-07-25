@@ -54,14 +54,13 @@ layout: section
 
 > [跨端开发框架深度横评之2020版](https://juejin.cn/post/6844904118901817351)
 
+- Vue
 
-- [uni-app](https://github.com/dcloudio/uni-app) 👍
-  
-  > Vue
+  > [uni-app](https://github.com/dcloudio/uni-app) 👍
 
-- [taro](https://www.npmjs.com/package/@tarojs/taro)
+- React
   
-  > React
+  > [taro](https://www.npmjs.com/package/@tarojs/taro)
 
 <!-- 
 目前跨端小程序开发框架比较火的就是 uni-app 和 taro
