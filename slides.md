@@ -435,7 +435,7 @@ export const cli = {
 
 # 自定义运行 - 编写运行IDE命令
 
-> https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/-/tree/master/script
+https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/-/tree/master/script
 
 ```ts
 #! /usr/bin/env zx
@@ -455,7 +455,8 @@ export const open = {
 ---
 
 # 自定义运行 - 编写获取预览二维码命令
-> https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/-/tree/master/script
+
+https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/-/tree/master/script
 
 ```ts
 #! /usr/bin/env zx
@@ -484,7 +485,7 @@ export const preview = {
 
 # 自定义运行 - 启动全部端
 
-> https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/-/tree/master/script
+https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/-/tree/master/script
 
 ```ts
 #! /usr/bin/env zx
@@ -509,7 +510,7 @@ Object.keys(open).forEach(async (mp) => {
   }
 })
 ```
-
+🚨 . 此操作对电脑性能有一定要求
 
 ---
 layout: section
