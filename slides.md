@@ -218,7 +218,9 @@ export default {
 
 </div><div>
 
-// TODO 效果视频
+<video controls autoplay autobuffer loop muted h="300px">
+  <source src="/assets/video/1.mp4" type="video/mp4">
+</video>
 
 </div>
 </div>
@@ -248,7 +250,9 @@ callHostMethod('navigate', {
 
 </div><div>
 
-// TODO 效果视频
+<video controls autoplay autobuffer loop muted h="300px">
+  <source src="/assets/video/2.mp4" type="video/mp4">
+</video>
 
 </div>
 </div>
@@ -820,6 +824,7 @@ download: true
 <!-- # 创新产品组 - 柳学斌 -->
 
 <div flex gap="32" mx="auto" align="center" justify="center">
+  <img src="/assets/qrcode_mars.png" w="150px" />
   <img src="/assets/qrcode_alipay.png" w="150px" />
   <img src="/assets/qrcode_weixin.jpg" w="150px" />
 </div>
