@@ -37,7 +37,7 @@ title: uni-app和火山小程序前端实践
 layout: section
 ---
 # 背景
-<!-- 可能有些同学还没听说uni-app，这里先介绍下 -->
+可能有些同学还不知道uni-app，这里先简单介绍下
 ---
 
 # Uni-APP
@@ -89,7 +89,7 @@ layout: section
 layout: section
 ---
 # 开始
-<!-- 先从最简方式启动开发环境 -->
+先从最简方式启动开发环境
 ---
 
 # HBuilderX 创建工程
@@ -279,7 +279,7 @@ callHostMethod('navigate', {
 layout: section
 ---
 # 折腾
-<!-- HBuilder虽然方便但是很多配置没有公开，做为一个有追求的前端，当然希望尽可能的都在我们自己的掌控中 -->
+HBuilder虽然方便但是很多配置没有公开，做为一个有追求的前端，当然希望尽可能的都在我们自己的掌控中
 ---
 
 # cli 创建工程
@@ -514,6 +514,7 @@ Object.keys(open).forEach(async (mp) => {
 layout: section
 ---
 # VSCode
+使用VSCode获得与HBuilderX同样的小程序开发体验
 <!-- 
 如果开发APP那没得选HBuilderX肯定是最好的选择
 
@@ -607,7 +608,7 @@ layout: section
 layout: section
 ---
 # 建议
-<!-- 下面是我们团队在开发过程中的一些经验及建议 -->
+下面是我们团队在开发过程中的一些经验及建议
 ---
 
 # UI 组件库
@@ -687,22 +688,6 @@ H5 / UniApp
 - Storage / URL参数
 
 - 分批加载
-
-
----
-layout: section
----
-
-# 提前规划分包
-
-<div display="flex" justify="center">
-<div my="auto" text="left">
-
-* subPackages 开启分包优化
-* preloadRule 配置分包预加载
-
-</div>
-</div>
 
 
 ---
@@ -791,6 +776,22 @@ export default function() {
   }
 }
 ```
+
+
+---
+layout: section
+---
+
+# 提前规划分包
+
+<div display="flex" justify="center">
+<div my="auto" text="left">
+
+* subPackages 开启分包优化
+* preloadRule 配置分包预加载
+
+</div>
+</div>
 
 ---
 layout: section
