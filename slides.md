@@ -355,7 +355,7 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
   "scripts": {
     "serve": "cross-env NODE_ENV=development node_modules/.bin/zx script/dev.mjs",
     "build": "cross-env NODE_ENV=production node_modules/.bin/zx script/build.mjs",
-    "------------------------------------------------------------------------------------------------------------------------------------------------------------": "",
+    "-----------------------------------------------------------------------------------------------------------------------": "",
     "build:app-plus": "cross-env NODE_ENV=production UNI_PLATFORM=app-plus vue-cli-service uni-build",
     "build:custom": "cross-env NODE_ENV=production uniapp-cli custom",
     "build:h5": "cross-env NODE_ENV=production UNI_PLATFORM=h5 vue-cli-service uni-build",
