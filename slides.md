@@ -494,16 +494,14 @@ import { cli } from 'config.mjs'
 
 const dist = (mp) => path.join(__dirname, `../../dist/dev/mp-${mp}`)
 
-let result = []
-Object.keys(open).forEach(async (mp) => {
+let runMps = [ 'weixin', 'alipay', 'toutiao' ], result = []
+Object.keys(runMps).forEach(async (mp) => {
   const p = $`npm run dev:mp-${mp}`.nothrow()
   for await (const chunk of p.stdout) {
     if (`${chunk}`.includes('complete')) {
         result.push(mp)
         if (result.length % runMps.length === 0) {
-          if (result.length < runMps.length + 1) {
-            await openIde()
-          }
+          if (result.length < runMps.length + 1) await openIde()
           await getPreviewCode()
         }
       }
