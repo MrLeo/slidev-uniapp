@@ -260,7 +260,7 @@ callHostMethod('navigate', {
 
 ---
 
-# 各小程序 request 网络请求的 Referer
+# 各端小程序 request 网络请求的 Referer
 
 - [微信开放文档 (qq.com)](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html#%E4%BD%BF%E7%94%A8%E9%99%90%E5%88%B6)
     
