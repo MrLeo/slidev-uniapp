@@ -728,8 +728,7 @@ Page = function (pageConfig) {
 
 > App.vue
 
-```tsx {all|5-7}
-<script>
+```tsx {all|4-6}
 import globalShare from 'helper/globalShare.js'
 export default {
   onLaunch() {
@@ -746,16 +745,14 @@ export default {
     }
   },
 }
-</script>
 ```
 
 </div>
 </div>
 ---
 
-```tsx {all|18-20}
+```tsx {all|17-19}
 import _ from 'lodash'
-
 export default function() {
   try {
     const pages = getCurrentPages() || [] //获取加载的页面
