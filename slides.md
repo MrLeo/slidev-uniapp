@@ -169,7 +169,7 @@ layout: section
 
 ---
 
-# 火山APP宿主环境 - 封装await
+# 火山APP宿主环境 - 封装Promise
 
 ```ts {all|11-16|2-4}
 export function callHostMethod(method = '', extra = {}) {
