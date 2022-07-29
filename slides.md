@@ -153,7 +153,7 @@ layout: section
 
 # 火山小程序模拟器
 
-> 和字节小程序客户端不是一个，不要走错了~
+和字节小程序客户端不是一个，不要走错了~
 
 <div class="py-4">
   <a href="https://www.volcengine.com/docs/6505/92634" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -169,7 +169,9 @@ layout: section
 
 ---
 
-# 火山APP宿主环境 - 封装Promise
+# 火山宿主环境 - 封装Promise
+
+[宿主APP集成SDK，自定义双向通道](https://www.volcengine.com/docs/6505/86507)
 
 ```ts {all|11-16|2-4}
 export function callHostMethod(method = '', extra = {}) {
@@ -194,7 +196,7 @@ export function callHostMethod(method = '', extra = {}) {
 
 ---
 
-# 火山APP宿主环境 - [注入登录信息](https://alidocs.dingtalk.com/i/team/vr4zEWJ2B4poPmDY/docs/vr4zER9dnjeolXDY)
+# 火山宿主环境 - [注入登录信息](https://alidocs.dingtalk.com/i/team/vr4zEWJ2B4poPmDY/docs/vr4zER9dnjeolXDY)
 
 <div grid="~ cols-3 gap-4">
 <div style="grid-column: 1 / span 2">
@@ -228,7 +230,7 @@ export default {
 
 ---
 
-# 火山APP宿主环境 - [跳转native路由](https://alidocs.dingtalk.com/i/team/vr4zEWJ2B4poPmDY/docs/vr4zERLPdg1MZXDY)
+# 火山宿主环境 - [跳转native路由](https://alidocs.dingtalk.com/i/team/vr4zEWJ2B4poPmDY/docs/vr4zERLPdg1MZXDY)
 
 <div grid="~ cols-3 gap-4">
 <div style="grid-column: 1 / span 2">
