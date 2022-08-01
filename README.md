@@ -1,4 +1,6 @@
 
+ uni-app和火山小程序前端实践: [GitHub](https://github.com/MrLeo/slidev-uniapp) / [Gitee](https://gitee.com/mr.leo/slidev-uniapp)
+
 <div class="pt-6">
   <a href="https://lxb.notion.site/uni-app-fe5673cefc2a46dca7c0fb43e2c68f91" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
     我的小程序开发笔记 <carbon:arrow-right class="inline"/>
