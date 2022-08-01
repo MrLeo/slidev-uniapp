@@ -853,7 +853,7 @@ download: true
 
 <div class="pt-6">
   <a href="https://lxb.notion.site/uni-app-fe5673cefc2a46dca7c0fb43e2c68f91" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    我的小程序开发笔记 <carbon:arrow-right class="inline"/>
+    我的小程序开发笔记，欢迎交流 <carbon:arrow-right class="inline"/>
   </a>
 </div>
 
