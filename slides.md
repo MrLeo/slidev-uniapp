@@ -640,8 +640,8 @@ UI 推荐
 # 流畅滚动
 
 - scroll-view
-- [mescroll](https://www.mescroll.com/)
 - Page
+- [mescroll](https://www.mescroll.com/) / [z-paging](https://ext.dcloud.net.cn/plugin?id=3935)
 
 
 ---
