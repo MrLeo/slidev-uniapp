@@ -24,10 +24,10 @@ info: |
 drawings:
   persist: false # 对绘图进行持久化
 css: unocss
-title: uni-app和火山小程序前端实践
+title: 智联赚赚uni-app和火山小程序前端实践
 ---
 
-# uni-app和火山小程序前端实践
+# 智联赚赚uni-app和火山小程序前端实践
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -144,10 +144,11 @@ layout: section
 ---
 
 # 小程序模拟器配置
+小程序后台配置request域名和业务域名
 
 <img src="/assets/weixin_devtools.png" h="450px">
 
-<arrow x1="545" y1="135" x2="530" y2="365" color="#f00" width="5" arrowSize="1" />
+<arrow x1="545" y1="165" x2="530" y2="395" color="#f00" width="5" arrowSize="1" />
 
 ---
 
