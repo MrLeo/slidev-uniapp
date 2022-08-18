@@ -275,9 +275,9 @@ callHostMethod('navigate', {
 
 - [火山小程序 (bytedance.com)](https://microapp.bytedance.com/docs/zh-CN/mini-app/develop/api/network/http/tt-request/#header-%E8%AF%B4%E6%98%8E)
     
-    > https://tmaservice.developer.toutiao.com/?appid=madab9772ccfc01a73&version=1.0.0
+    > 安卓: https://tmaservice.developer.toutiao.com/?appid=madab9772ccfc01a73&version=1.0.0
 
-    > /?appid=madab9772ccfc01a73&version=1.0.0
+    > iOS: /?appid=madab9772ccfc01a73&version=1.0.0
 
 ---
 layout: section
