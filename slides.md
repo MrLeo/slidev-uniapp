@@ -36,6 +36,14 @@ title: 智联赚赚uni-app和火山小程序前端实践
 </div>
 
 ---
+
+# 收益
+
+1. 什么是UniApp框架及如何使用UniApp开发智联赚赚跨端小程序
+2. 使用UniApp生成火山小程序
+3. 如何使用打造高性能小程序
+
+---
 layout: section
 ---
 # 背景
@@ -839,7 +847,7 @@ download: true
 <!-- # 创新产品组 - 柳学斌 -->
 
 <div flex gap="32" mx="auto" align="center" justify="center">
-  <img src="/assets/qrcode_mars.png" w="150px" />
+  <img src="/assets/zhuan_zhuan.png" w="150px" />
   <img src="/assets/qrcode_alipay.png" w="150px" />
   <img src="/assets/qrcode_weixin.jpg" w="150px" />
 </div>
