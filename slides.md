@@ -41,7 +41,7 @@ title: 智联赚赚uni-app和火山小程序前端实践
 
 1. 什么是UniApp框架及如何使用UniApp开发智联赚赚跨端小程序
 2. 使用UniApp生成火山小程序
-3. 如何使用打造高性能小程序
+3. 如何使用UniApp打造高性能小程序
 
 ---
 layout: section
