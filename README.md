@@ -1,20 +1,22 @@
 
- uni-app和火山小程序前端实践: [GitHub](https://github.com/MrLeo/slidev-uniapp) / [Gitee](https://gitee.com/mr.leo/slidev-uniapp)
-
-<div class="pt-6">
+<div style="text-align: center">
   <a href="https://lxb.notion.site/uni-app-fe5673cefc2a46dca7c0fb43e2c68f91" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
     我的小程序开发笔记 <carbon:arrow-right class="inline"/>
   </a>
 </div>
 
-<div mt="12" mx="auto" align="center">
-  <img src="./public/assets/qrcode.png" w="150px" />
+<div style="text-align: center; display: flex; flex-direction: column;">
+  <img src="./public/assets/qrcode.png" style="width: 150px; margin: 0 auto" />
   扫码观看PPT
 </div>
 
 
-> 国内用户可访问: http://mr.leo.gitee.io/slidev-uniapp/
+> 国内用户可访问: 
+> https://dev.xuebin.me/slidev-uniapp/
+> http://mr.leo.gitee.io/slidev-uniapp/
 
+
+uni-app和火山小程序前端实践: [GitHub](https://github.com/MrLeo/slidev-uniapp) / [Gitee](https://gitee.com/mr.leo/slidev-uniapp)
 
 ---
 
