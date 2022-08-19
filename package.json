@@ -9,7 +9,7 @@
     "build": "pnpm build:page && pnpm build:vps",
     "build:page": "slidev build --base /slidev-uniapp/ --out ./docs --download true && slidev export --output ./docs/slidev-exported.pdf",
     "build:vps": "slidev build --base /slidev-uniapp/ --out ./slidev-uniapp --download true && slidev export --output ./slidev-uniapp/slidev-exported.pdf",
-    "dev": "slidev --open",
+    "dev": "slidev --open --remote",
     "export": "slidev export"
   },
   "dependencies": {
