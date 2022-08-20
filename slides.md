@@ -563,11 +563,14 @@ layout: section
 
 ## uni-app 代码提示
 - [bond.better-comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-  <!-- TODO 示例 -->
+  ![better-comments](/assets/better-comments.png)
 - [create-uniapp-view](https://marketplace.visualstudio.com/items?itemName=mrmaoddxxaa.create-uniapp-view)
-  <!-- TODO 示例 -->
+  ![](/assets/create-uniapp-view.png)
 - [vscode-uni-helper](https://marketplace.visualstudio.com/items?itemName=ModyQyW.vscode-uni-helper)
-  <!-- TODO 示例 -->
+  - [vscode-uni-app-schemas](https://marketplace.visualstudio.com/items?itemName=ModyQyW.vscode-uni-app-schemas) - 校验 `uni-app` 中的 `androidPrivacy.json`、`pages.json` 和 `manifest.json` 格式，也可以直接在对应的文件中添加 `$schema` 来使用对应的 `schema` 文件
+  - [vscode-uni-app-snippets](https://marketplace.visualstudio.com/items?itemName=ModyQyW.vscode-uni-app-snippets) - 提供 `uni-app` 基本能力代码片段
+  - [vscode-uni-cloud-snippets](https://marketplace.visualstudio.com/items?itemName=ModyQyW.vscode-uni-cloud-snippets) - 提供 `uni-cloud` 基本能力代码片段
+  - [vscode-uni-ui-snippets](https://marketplace.visualstudio.com/items?itemName=ModyQyW.vscode-uni-ui-snippets) - 提供 `uni-ui` 基本能力代码片段
 
 </div>
 </div>
