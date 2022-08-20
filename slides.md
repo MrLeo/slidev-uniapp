@@ -157,7 +157,7 @@ layout: section
 和字节小程序客户端不是一个，不要走错了~
 
 <div class="py-4">
-  <a href="https://www.volcengine.com/docs/6505/92634" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
+  <a href="https://www.volcengine.com/docs/6505/92634" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10" target="_blank">
     火山小程序开发者工具下载地址 <carbon:arrow-right class="inline"/>
   </a>
 </div>
@@ -637,7 +637,7 @@ layout: section
 # UI 组件库
 
 <div class="py-4">
-  <a href="https://www.volcengine.com/docs/6505/92634" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
+  <a href="https://www.volcengine.com/docs/6505/92634" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10" target="_blank">
     官方《关于uni-app的ui库、ui框架、ui组件》建议 <carbon:arrow-right class="inline"/>
   </a>
 </div>
@@ -862,14 +862,14 @@ download: true
 
 
 <div class="pt-12">
-  <a href="https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
+  <a href="https://gitlab.dev.zhaopin.com/innovation/mp-innovation-uni/" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10" target="_blank">
     GitLab: mp-innovation-uni <carbon:arrow-right class="inline"/>
   </a>
 </div>
 
 
 <div class="pt-6">
-  <a href="https://lxb.notion.site/uni-app-fe5673cefc2a46dca7c0fb43e2c68f91" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
+  <a href="https://lxb.notion.site/uni-app-fe5673cefc2a46dca7c0fb43e2c68f91" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10" target="_blank">
     我的小程序开发笔记，欢迎交流 <carbon:arrow-right class="inline"/>
   </a>
 </div>
