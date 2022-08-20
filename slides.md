@@ -263,6 +263,19 @@ callHostMethod('navigate', {
 
 ---
 
+# 火山小程序 - 外部唤起
+
+
+```text {1|3|5}
+marsmp://microapp?app_id=ma6ddcc04978a5aefb&bdp_log=%7B%22launch_from%22%3A%22scan%22%7D&scene=12452&version=v2&version_type=current&bdpsum=ae3285b
+
+/container/native/miniProgram?urlStr=marsmp%3A%2F%2Fmicroapp%3Fapp_id%3Dma6ddcc04978a5aefb%26bdp_log%3D%257B%2522launch_from%2522%253A%2522scan%2522%257D%26scene%3D12452%26version%3Dv2%26version_type%3Dcurrent%26bdpsum%3Dae3285b
+
+zpm://app-cfg.zhaopin.com?applink=%2Fcontainer%2Fnative%2FminiProgram%3FurlStr%3Dmarsmp%253A%252F%252Fmicroapp%253Fapp_id%253Dma6ddcc04978a5aefb%2526bdp_log%253D%25257B%252522launch_from%252522%25253A%252522scan%252522%25257D%2526scene%253D12452%2526version%253Dv2%2526version_type%253Dcurrent%2526bdpsum%253Dae3285b
+```
+
+---
+
 # 各端小程序 request 网络请求的 Referer
 
 - [微信开放文档 (qq.com)](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html#%E4%BD%BF%E7%94%A8%E9%99%90%E5%88%B6)
@@ -550,8 +563,11 @@ layout: section
 
 ## uni-app 代码提示
 - [bond.better-comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+  <!-- TODO 示例 -->
 - [create-uniapp-view](https://marketplace.visualstudio.com/items?itemName=mrmaoddxxaa.create-uniapp-view)
+  <!-- TODO 示例 -->
 - [vscode-uni-helper](https://marketplace.visualstudio.com/items?itemName=ModyQyW.vscode-uni-helper)
+  <!-- TODO 示例 -->
 
 </div>
 </div>
