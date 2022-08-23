@@ -177,6 +177,33 @@ manifest.json
 
 ---
 
+# 各端小程序 request 网络请求的 Referer
+
+> Node Api 白名单配置: https://front-end.zhaopin.com/docs/zpfe.ada/index#/config-center/#跨域校验白名单配置
+
+
+- [微信开放文档 (qq.com)](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html#%E4%BD%BF%E7%94%A8%E9%99%90%E5%88%B6)
+    
+    ```
+    https://servicewechat.com/{appid}/{version}/page-frame.html
+    ```
+
+- [支付宝文档中心 (alipay.com)](https://opendocs.alipay.com/mini/api/owycmh#referer%20%E8%AF%B4%E6%98%8E)
+    
+    ```
+    https://{appid}.hybrid.alipay-eco.com/{appid}/{version}/index.html#pages/index
+    ```
+
+- [火山小程序 (bytedance.com)](https://microapp.bytedance.com/docs/zh-CN/mini-app/develop/api/network/http/tt-request/#header-%E8%AF%B4%E6%98%8E)
+    
+    ```
+    安卓: https://tmaservice.developer.toutiao.com/?appid=madab9772ccfc01a73&version=1.0.0
+
+    iOS: /?appid=madab9772ccfc01a73&version=1.0.0
+    ```
+
+---
+
 # 启动项目
 
 <img src="/assets/hbuilderx_run.png" h="400px"/>
@@ -300,33 +327,6 @@ callHostMethod('navigate', {
 
 </div>
 </div>
-
----
-
-# 各端小程序 request 网络请求的 Referer
-
-> Node Api 白名单配置: https://front-end.zhaopin.com/docs/zpfe.ada/index#/config-center/#跨域校验白名单配置
-
-
-- [微信开放文档 (qq.com)](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html#%E4%BD%BF%E7%94%A8%E9%99%90%E5%88%B6)
-    
-    ```
-    https://servicewechat.com/{appid}/{version}/page-frame.html
-    ```
-
-- [支付宝文档中心 (alipay.com)](https://opendocs.alipay.com/mini/api/owycmh#referer%20%E8%AF%B4%E6%98%8E)
-    
-    ```
-    https://{appid}.hybrid.alipay-eco.com/{appid}/{version}/index.html#pages/index
-    ```
-
-- [火山小程序 (bytedance.com)](https://microapp.bytedance.com/docs/zh-CN/mini-app/develop/api/network/http/tt-request/#header-%E8%AF%B4%E6%98%8E)
-    
-    ```
-    安卓: https://tmaservice.developer.toutiao.com/?appid=madab9772ccfc01a73&version=1.0.0
-
-    iOS: /?appid=madab9772ccfc01a73&version=1.0.0
-    ```
 
 ---
 
