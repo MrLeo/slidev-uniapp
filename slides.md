@@ -179,7 +179,11 @@ manifest.json
 
 # 各端小程序 request 网络请求的 Referer
 
-> Node Api 白名单配置: https://front-end.zhaopin.com/docs/zpfe.ada/index#/config-center/#跨域校验白名单配置
+<div class="py-4">
+  <a href="https://front-end.zhaopin.com/docs/zpfe.ada/index#/config-center/#跨域校验白名单配置" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10" target="_blank">
+    Node Api 跨域校验白名单配置 <carbon:arrow-right class="inline"/>
+  </a>
+</div>
 
 
 - [微信开放文档 (qq.com)](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html#%E4%BD%BF%E7%94%A8%E9%99%90%E5%88%B6)
