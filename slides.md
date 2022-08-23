@@ -137,6 +137,46 @@ layout: section
 
 ---
 
+# HBuilderX 运行前准备 - 小程序配置
+
+<div grid="~ cols-2 gap-4">
+<!-- <div style="grid-column: 1 / span 2"> -->
+<div>
+
+HBuilderX
+
+<img src="/assets/manifest.png" w="full"/>
+
+</div><div>
+
+manifest.json
+
+```ts{5,14}
+{
+  // ...
+  "versionName": "1.0.0",
+  "mp-weixin": {
+    "appid": "wx41b6d336b43680a0",
+    "setting": { "urlCheck": false },
+    "usingComponents": true,
+    "permission": {
+      "scope.userLocation": { "desc": "授权地理位置，以便给您推荐附近的岗位信息" },
+      "scope.camera": { "desc": "授权相册/相机权限，以便可以选择头像等图片功能。" }
+    }
+  },
+  "mp-toutiao": {
+    "appid": "madab9772ccfc01a73",
+    "usingComponents": true
+  },
+  // ...
+}
+```
+
+</div>
+</div>
+
+---
+
 # 启动项目
 
 <img src="/assets/hbuilderx_run.png" h="400px"/>
@@ -263,6 +303,33 @@ callHostMethod('navigate', {
 
 ---
 
+# 各端小程序 request 网络请求的 Referer
+
+> Node Api 白名单配置: https://front-end.zhaopin.com/docs/zpfe.ada/index#/config-center/#跨域校验白名单配置
+
+
+- [微信开放文档 (qq.com)](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html#%E4%BD%BF%E7%94%A8%E9%99%90%E5%88%B6)
+    
+    ```
+    https://servicewechat.com/{appid}/{version}/page-frame.html
+    ```
+
+- [支付宝文档中心 (alipay.com)](https://opendocs.alipay.com/mini/api/owycmh#referer%20%E8%AF%B4%E6%98%8E)
+    
+    ```
+    https://{appid}.hybrid.alipay-eco.com/{appid}/{version}/index.html#pages/index
+    ```
+
+- [火山小程序 (bytedance.com)](https://microapp.bytedance.com/docs/zh-CN/mini-app/develop/api/network/http/tt-request/#header-%E8%AF%B4%E6%98%8E)
+    
+    ```
+    安卓: https://tmaservice.developer.toutiao.com/?appid=madab9772ccfc01a73&version=1.0.0
+
+    iOS: /?appid=madab9772ccfc01a73&version=1.0.0
+    ```
+
+---
+
 # 火山小程序 - 外部唤起
 
 
@@ -273,24 +340,6 @@ marsmp://microapp?app_id=ma6ddcc04978a5aefb&bdp_log=%7B%22launch_from%22%3A%22sc
 
 zpm://app-cfg.zhaopin.com?applink=%2Fcontainer%2Fnative%2FminiProgram%3FurlStr%3Dmarsmp%253A%252F%252Fmicroapp%253Fapp_id%253Dma6ddcc04978a5aefb%2526bdp_log%253D%25257B%252522launch_from%252522%25253A%252522scan%252522%25257D%2526scene%253D12452%2526version%253Dv2%2526version_type%253Dcurrent%2526bdpsum%253Dae3285b
 ```
-
----
-
-# 各端小程序 request 网络请求的 Referer
-
-- [微信开放文档 (qq.com)](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html#%E4%BD%BF%E7%94%A8%E9%99%90%E5%88%B6)
-    
-    > https://servicewechat.com/{appid}/{version}/page-frame.html
-
-- [支付宝文档中心 (alipay.com)](https://opendocs.alipay.com/mini/api/owycmh#referer%20%E8%AF%B4%E6%98%8E)
-    
-    > https://{appid}.hybrid.alipay-eco.com/{appid}/{version}/index.html#pages/index
-
-- [火山小程序 (bytedance.com)](https://microapp.bytedance.com/docs/zh-CN/mini-app/develop/api/network/http/tt-request/#header-%E8%AF%B4%E6%98%8E)
-    
-    > 安卓: https://tmaservice.developer.toutiao.com/?appid=madab9772ccfc01a73&version=1.0.0
-
-    > iOS: /?appid=madab9772ccfc01a73&version=1.0.0
 
 ---
 layout: section
