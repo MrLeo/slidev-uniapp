@@ -76,15 +76,15 @@ layout: section
 
 - [easycom](https://uniapp.dcloud.net.cn/collocation/pages?id=easycom) 
   
-  > 符合components/组件名称/组件名称.vue目录结构。就可以不用引用、注册，直接在页面中使用。
+  符合 `components/组件名称/组件名称.vue`目录结构。就可以不用引用、注册，直接在页面中使用。
 
 - [uni_modules](https://uniapp.dcloud.io/plugin/uni_modules.html)
 
-  > 对一组js sdk、组件、页面、uniCloud云函数、公共模块等的封装，用于嵌入到uni-app项目中使用，也支持直接封装为项目模板。
+  对一组js sdk、组件、页面、uniCloud云函数、公共模块等的封装，用于嵌入到uni-app项目中使用，也支持直接封装为项目模板。
 
 - [条件编译](https://uniapp.dcloud.io/tutorial/platform.html)
 
-  > #ifdef、#ifndef
+  `#ifdef`、`#ifndef`
 
 ---
 layout: section
